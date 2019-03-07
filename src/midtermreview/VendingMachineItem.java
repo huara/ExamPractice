@@ -12,7 +12,7 @@ package midtermreview;
  * array called Candies. Use this code to answer questions
  * B.1 and B.2 in the midterm review.
  * @author dancye, 2019
- * Another branch boys!
+ * Main Branch!
  */
 public class VendingMachineItem 
 {
