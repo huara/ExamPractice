@@ -5,7 +5,6 @@
  */
 package midtermreview;
 
-import java.util.Scanner;
 
 /**
  * A class that models vending machine items.
@@ -13,11 +12,12 @@ import java.util.Scanner;
  * array called Candies. Use this code to answer questions
  * B.1 and B.2 in the midterm review.
  * @author dancye, 2019
+ * Another branch boys!
  */
 public class VendingMachineItem 
 {
     public double price;
-    public static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
+    public final static String [] candies = {"chocolate bar", "sour candy", "soft drink", "potato chips"};
     public VendingMachineItem()
     {
         //intentionally left blank
@@ -39,11 +39,5 @@ public class VendingMachineItem
     public void setPrice(double givenPrice)
     {
         price = givenPrice;
-    }
-    
-    /**
-     * A method to ask the user to select am item from the vending machine.
-     * @param args - not used
-     */
-    
+    }   
 }
