@@ -9,6 +9,7 @@
  * Also, because each class as different responsibilites, then the entire program is highly cohesive since each class is only performing tasks
  * related to it's concept/main responsibility, and will therefore allow for more flexibility since adding features won't change the entire 
  * implementation of the VendingMachine object. 
+ * Fetch boy!
  */
 package midtermreview;
 
